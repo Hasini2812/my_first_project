@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ScamShield AI",
+  "version": "1.0",
+  "description": "Universal protection against UPI scams and fake shopping storefronts.",
+  "permissions": ["tabs", "scripting", "activeTab", "webNavigation"],
+  "host_permissions": [
+    "<all_urls>",
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
